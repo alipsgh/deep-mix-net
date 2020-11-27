@@ -1,0 +1,12 @@
+embedding_size: 300
+num_channels: 100
+kernel_size:
+  - 3
+  - 4
+  - 5
+max_seq_len: 30
+output_dim: 4
+dropout_rate: 0.8
+optimizer: adam
+learning_rate: 0.001
+

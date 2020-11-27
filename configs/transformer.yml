@@ -1,0 +1,8 @@
+dim_model: 300 # 512 in Transformer Paper
+dim_ffn: 512 # 2048 in Transformer Paper
+num_heads: 6 # embed_dim must be divisible by num_heads
+num_layers: 2 # 6 in Transformer Paper
+output_dim: 4
+dropout_rate: 0.1
+optimizer: adam
+learning_rate: 0.0001

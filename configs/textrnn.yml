@@ -1,0 +1,9 @@
+embedding_size: 300
+rnn_hidden_size: 32
+rnn_num_hidden_layers: 2
+output_dim: 4
+rnn_bidirectional: true
+dropout_rate: 0.8
+optimizer: adam
+learning_rate: 0.001
+

@@ -1,0 +1,8 @@
+embedding_size: 300
+rcnn_num_hidden_layers: 2
+rcnn_hidden_size: 64
+rcnn_linear_size: 64
+output_dim: 4
+dropout_rate: 0.5
+optimizer: adam
+learning_rate: 0.001

@@ -1,0 +1,6 @@
+embedding_size: 300
+hidden_layer_size: 10
+output_dim: 4
+dropout_rate: 0.8
+optimizer: adam
+learning_rate: 0.001

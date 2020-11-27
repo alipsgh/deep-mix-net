@@ -1,0 +1,8 @@
+embedding_size: 300
+lstm_hidden_dim: 32
+lstm_num_hidden_layers: 1
+output_dim: 4
+bidirectional: true
+dropout_rate: 0.8
+optimizer: adam
+learning_rate: 0.001

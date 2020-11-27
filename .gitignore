@@ -1,0 +1,9 @@
+# ignore jetbrains folder
+/.idea
+
+# ignore embeddings
+/.vector_cache
+/pre-trained
+
+# ignore data wranglers
+/data_wrangler
