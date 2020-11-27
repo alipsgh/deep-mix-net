@@ -98,7 +98,7 @@ class DeepSeqNet(Module):
 
             x_txt, x_num = x_txt.t(), x_num.t()
             if torch.cuda.is_available():
-                x_txt, x_tab = x_txt.cuda(), x_num.cuda()
+                x_txt, x_num = x_txt.cuda(), x_num.cuda()
                 y = y.cuda()
 
             loss = self.fit(x_txt, x_num, y)

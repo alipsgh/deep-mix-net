@@ -1,1 +1,1 @@
-# deep-seq-nets
+# Deep Mix Neural Nets
